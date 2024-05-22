@@ -1,0 +1,84 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.ant-switch{
+  background-color: red;
+}
+
+.element-style{
+  margin-left: 35px;
+}
+
+.ant-picker-calendar .ant-picker-calendar-header{
+  margin-bottom: 30px;
+}
+
+:where(.css-dev-only-do-not-override-14wwjjs).ant-menu-dark.ant-menu-inline .ant-menu-sub.ant-menu-inline, :where(.css-dev-only-do-not-override-14wwjjs).ant-menu-dark>.ant-menu.ant-menu-inline .ant-menu-sub.ant-menu-inline {
+  background: #001529;
+}
+
+:where(.css-dev-only-do-not-override-14wwjjs).ant-card .ant-card-head{
+  border-bottom: 1px solid #1677ff;
+  color: white;
+  background: #001529;
+}
+
+.ant-float-btn-default .ant-float-btn-body {
+  background-color: #ff4d4f
+}
+
+:where(.css-dev-only-do-not-override-14wwjjs).ant-layout {
+  display: flex;
+  flex: auto;
+  flex-direction: column;
+  min-height: 0;
+  background: #ffffff;
+}
+
+.ant-table
+  .ant-table-container
+  .ant-table-content
+  table
+  thead.ant-table-thead
+  .ant-table-cell {
+  background-color: #001529;
+  color:white;
+}
+
+.ant-segmented .ant-segmented-item-selected {
+  background-color: white;
+  color: #1677ff;
+}
+
+.ant-segmented :hover{
+  --tw-text-opacity: 1;
+  color: rgb(209 213 219 / var(--tw-text-opacity));
+}
+
+.spin {
+  margin: 20px 0;
+  margin-bottom: 20px;
+  padding: 30px 50px;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.05);
+  border-radius: 4px;
+}
+
+.ant-btn-primary{
+  background-color: #1677ff;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
